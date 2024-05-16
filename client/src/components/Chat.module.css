@@ -1,0 +1,60 @@
+.chat {
+    width: 50%;
+    background-color: rgb(244, 244, 249);
+    padding: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .top {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat .top .onlineUsers {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.chat .messages {
+    padding: 8px;
+    flex: 1;
+
+    overflow-y: scroll;
+}
+
+.chat .bottom {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.chat .bottom .messageInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.chat .bottom .sendButton {
+    padding: 10px 15px;
+    background-color: rgb(99, 99, 185);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.chat .bottom .sendButton:hover {
+    background-color: rgb(119, 119, 209);
+}

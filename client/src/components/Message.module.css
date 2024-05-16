@@ -1,0 +1,50 @@
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message.own {
+    flex-direction: row-reverse;
+}
+
+.message .detailsBox .username {
+    color: rgb(76, 76, 76);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.message.own .detailsBox .username {
+    text-align: right;
+}
+
+.message .detailsBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.message.own .detailsBox {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.message .detailsBox .messageText {
+    background-color: rgb(99, 99, 185);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+    margin-top: 3px;
+}
+
+.message.own .detailsBox .messageText {
+    background-color: white;
+    color: black;
+}
+
+.message .avatarBox .avatar {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 100%;
+}

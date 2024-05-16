@@ -1,0 +1,9 @@
+.app {
+  height: 100vh;
+  background-color: grey;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 40px 10px;
+}
