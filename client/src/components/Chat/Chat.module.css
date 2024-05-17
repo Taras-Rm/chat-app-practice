@@ -23,6 +23,10 @@
     font-weight: 600;
 }
 
+.chat .top .onlineUsersList {
+    overflow-x: scroll;
+}
+
 .chat .messages {
     padding: 8px;
     flex: 1;
