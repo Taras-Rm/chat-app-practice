@@ -1,6 +1,6 @@
 # Chat App (client)
 
-This is basic chat.
+This is a basic chat.
 
 ## Technologies
 

@@ -1,6 +1,6 @@
 # Chat API (server)
 
-This is basic chat.
+This is a basic chat.
 
 ## Technologies
 

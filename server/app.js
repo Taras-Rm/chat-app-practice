@@ -18,7 +18,7 @@ io.on("connection", (socket) => {
   // send all connections for new connections
   socket.emit("connectedUsers", getConnetctionsIds());
 
-  // send to all connection new connection
+  // send to all connections new connection
   socket.broadcast.emit("userConnected", socket.id);
 
   // waiting for message from connection
